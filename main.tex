@@ -1,6 +1,10 @@
-\documentclass{article}
+\documentclass[12pt]{scrartcl}
+\usepackage[margin=2cm
+  %,showframe% <- only to show the page layout
+]{geometry}
+\renewcommand*{\titlepagestyle}{empty}
 
-\title{Narrative comparisonn}
+\title{Detecting subtle text manipulations: a cross-article analysis chasing the signals of media framing}
 \author{Martino Mensio}
 \date{1 April 2020}
 
@@ -8,23 +12,36 @@
 
 \maketitle
 
-% Here is the abstract.
 \begin{abstract}
-	Introduction
+% 	Introduction
+% 	Orientation
+In the world of public misinformation, there are many cases where the information is not false or fabricated, but rather has been manipulated using more subtle techniques such as word replacements, omissions and argument distortion.
+These techniques can have the effect of influencing the reader’s frame of mind towards the events reported.
 	
-	Orientation
+% 	Rationale
+We currently lack the necessary tools and research to uncover such manipulations automatically.
+Studies have analysed the problem of grouping news articles about the same events and find corroboration and omission of information.
+But the existent research done on media framing analysis is quite disjoint and is benefiting from signals that come from a comparative analysis.
 	
-	Rationale
+% 	Aim
+This research aims to propose and develop a framework that allows to put in contrast the differences in the framing of articles that talk about the same events.
 	
-	Aim
+% 	Method
+The method relies on two pillars: 1) researching similarity strategies that work well both at the document and sentence level, in order to find sentences that have been manipulated while talking about the same events. 2) researching linguistic signals that indicate the media framing occurring for a certain article. With these two pillars, the framework will be able to bring forward the comparison analysis by contrasting the framing of the involved articles.
 	
-	Method
+% 	Findings
+This work can produce many types of output:
+- Anti-plagiarism
+- Study of the flow of information between different news outlets
+- Bringing evidence in bias-ranking of news outlets
+- Present to the user pieces of news with a different perspective, to break the bubble
+- Present to the user the devices that have been employed by the authors to emphasise or omit information
+
 	
-	Findings
-	
-	Interpretation
+% 	Interpretation
+
+
 \end{abstract}
 %----
-
 
 \end{document}
